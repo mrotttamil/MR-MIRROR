@@ -51,9 +51,9 @@ def stats(update, context):
 def start(update, context):
     start_string = f'''
 This bot can mirror all your links to Google drive!
-Type /{BotCommands.HelpCommand} to get a list of available commands
+@TN57_BotZ 😍
 '''
-    update.effective_message.reply_photo("https://telegra.ph/file/db03910496f06094f1f7a.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo("https://telegra.ph/file/c276e4415058efc12ec10.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
 
 
 @run_async
@@ -67,7 +67,7 @@ def chat_list(update, context):
 def repo(update, context):
     bot.send_message(update.message.chat_id,
     reply_to_message_id=update.message.message_id,
-    text="Repo: https://github.com/breakdowns/slam-mirrorbot\nGroup: https://t.me/SlamMirrorSupport", disable_web_page_preview=True)
+    text="Repo: https://t.me/bluvds\nGroup: https://t.me/TN57_botzsupport", disable_web_page_preview=True)
 
 
 @run_async
