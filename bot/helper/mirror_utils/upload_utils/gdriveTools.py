@@ -481,8 +481,8 @@ class GoogleDriveHelper:
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
                                  title = 'TN57 Mirror BotZ - Search',
-                                 author_name='TN57_BotZ',
-                                 author_url='https://t.me/TN57_BotZ',
+                                 author_name= 'TN57_BotZ',
+                                 author_url= 'https://t.me/TN57_BotZ',
                                  html_content=content)
         return
 
@@ -558,7 +558,7 @@ class GoogleDriveHelper:
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
                                                         title = 'TN57 Mirror BotZ - Search,
                                                         author_name= 'TN57_BotZ,
-                                                        author_url='https://t.me/TN57_BotZ',
+                                                        author_url= 'https://t.me/TN57_BotZ',
                                                         html_content=content
                                                         )['path'])
 
