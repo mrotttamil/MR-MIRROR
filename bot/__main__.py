@@ -44,7 +44,7 @@ def stats(update, context):
             f'<b>CPU:</b> {cpuUsage}%\n' \
             f'<b>RAM:</b> {memory}%\n' \
             f'<b>Disk:</b> {disk}%'
-    update.effective_message.reply_photo("https://telegra.ph/file/db03910496f06094f1f7a.jpg", stats, parse_mode=ParseMode.HTML)
+    update.effective_message.reply_photo("https://telegra.ph/file/6ef8bb702d1b9a14ccaf7.jpg", stats, parse_mode=ParseMode.HTML)
 
 
 @run_async
@@ -53,7 +53,7 @@ def start(update, context):
 This bot can mirror all your links to Google drive!
 @TN57_BotZ 😍
 '''
-    update.effective_message.reply_photo("https://telegra.ph/file/c276e4415058efc12ec10.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo("https://telegra.ph/file/6ef8bb702d1b9a14ccaf7.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
 
 
 @run_async
